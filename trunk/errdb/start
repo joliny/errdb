@@ -1,0 +1,2 @@
+#!/bin/bash
+erl -smp auto +K true -name errdb@opengoss.com -noinput -detached -pa ./ebin -config etc/errdb/errdb -boot start_sasl -s reloader -s errdb_app 

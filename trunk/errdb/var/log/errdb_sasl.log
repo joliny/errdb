@@ -1,0 +1,268 @@
+
+=PROGRESS REPORT==== 3-Sep-2009::18:03:36 ===
+          supervisor: {local,sasl_safe_sup}
+             started: [{pid,<0.39.0>},
+                       {name,alarm_handler},
+                       {mfa,{alarm_handler,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,2000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 3-Sep-2009::18:03:36 ===
+          supervisor: {local,sasl_safe_sup}
+             started: [{pid,<0.40.0>},
+                       {name,overload},
+                       {mfa,{overload,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,2000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 3-Sep-2009::18:03:36 ===
+          supervisor: {local,sasl_sup}
+             started: [{pid,<0.38.0>},
+                       {name,sasl_safe_sup},
+                       {mfa,
+                           {supervisor,start_link,
+                               [{local,sasl_safe_sup},sasl,safe]}},
+                       {restart_type,permanent},
+                       {shutdown,infinity},
+                       {child_type,supervisor}]
+
+=PROGRESS REPORT==== 3-Sep-2009::18:03:36 ===
+          supervisor: {local,sasl_sup}
+             started: [{pid,<0.41.0>},
+                       {name,release_handler},
+                       {mfa,{release_handler,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,2000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 3-Sep-2009::18:03:36 ===
+         application: sasl
+          started_at: 'errdb@opengoss.com'
+
+=PROGRESS REPORT==== 3-Sep-2009::18:03:37 ===
+          supervisor: {local,crypto_sup}
+             started: [{pid,<0.50.0>},
+                       {name,crypto_server},
+                       {mfa,{crypto_server,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,2000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 3-Sep-2009::18:03:37 ===
+         application: crypto
+          started_at: 'errdb@opengoss.com'
+
+=PROGRESS REPORT==== 3-Sep-2009::18:03:37 ===
+          supervisor: {local,erlrrd_sup}
+             started: [{pid,<0.55.0>},
+                       {name,erlrrd_1},
+                       {mfa,{erlrrd,start_link,[erlrrd_1,"rrdtool -"]}},
+                       {restart_type,permanent},
+                       {shutdown,100},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 3-Sep-2009::18:03:37 ===
+          supervisor: {local,erlrrd_sup}
+             started: [{pid,<0.56.0>},
+                       {name,erlrrd_2},
+                       {mfa,{erlrrd,start_link,[erlrrd_2,"rrdtool -"]}},
+                       {restart_type,permanent},
+                       {shutdown,100},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 3-Sep-2009::18:03:37 ===
+          supervisor: {local,erlrrd_sup}
+             started: [{pid,<0.57.0>},
+                       {name,erlrrd_3},
+                       {mfa,{erlrrd,start_link,[erlrrd_3,"rrdtool -"]}},
+                       {restart_type,permanent},
+                       {shutdown,100},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 3-Sep-2009::18:03:37 ===
+          supervisor: {local,erlrrd_sup}
+             started: [{pid,<0.58.0>},
+                       {name,erlrrd_4},
+                       {mfa,{erlrrd,start_link,[erlrrd_4,"rrdtool -"]}},
+                       {restart_type,permanent},
+                       {shutdown,100},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 3-Sep-2009::18:03:37 ===
+          supervisor: {local,erlrrd_sup}
+             started: [{pid,<0.59.0>},
+                       {name,erlrrd_5},
+                       {mfa,{erlrrd,start_link,[erlrrd_5,"rrdtool -"]}},
+                       {restart_type,permanent},
+                       {shutdown,100},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 3-Sep-2009::18:03:37 ===
+          supervisor: {local,erlrrd_sup}
+             started: [{pid,<0.60.0>},
+                       {name,erlrrd_6},
+                       {mfa,{erlrrd,start_link,[erlrrd_6,"rrdtool -"]}},
+                       {restart_type,permanent},
+                       {shutdown,100},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 3-Sep-2009::18:03:37 ===
+          supervisor: {local,erlrrd_sup}
+             started: [{pid,<0.61.0>},
+                       {name,erlrrd_7},
+                       {mfa,{erlrrd,start_link,[erlrrd_7,"rrdtool -"]}},
+                       {restart_type,permanent},
+                       {shutdown,100},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 3-Sep-2009::18:03:37 ===
+          supervisor: {local,erlrrd_sup}
+             started: [{pid,<0.62.0>},
+                       {name,erlrrd_8},
+                       {mfa,{erlrrd,start_link,[erlrrd_8,"rrdtool -"]}},
+                       {restart_type,permanent},
+                       {shutdown,100},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 3-Sep-2009::18:03:37 ===
+          supervisor: {local,erlrrd_sup}
+             started: [{pid,<0.63.0>},
+                       {name,erlrrd_9},
+                       {mfa,{erlrrd,start_link,[erlrrd_9,"rrdtool -"]}},
+                       {restart_type,permanent},
+                       {shutdown,100},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 3-Sep-2009::18:03:37 ===
+          supervisor: {local,erlrrd_sup}
+             started: [{pid,<0.64.0>},
+                       {name,erlrrd_10},
+                       {mfa,{erlrrd,start_link,[erlrrd_10,"rrdtool -"]}},
+                       {restart_type,permanent},
+                       {shutdown,100},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 3-Sep-2009::18:03:37 ===
+          supervisor: {local,erlrrd_sup}
+             started: [{pid,<0.65.0>},
+                       {name,erlrrd_11},
+                       {mfa,{erlrrd,start_link,[erlrrd_11,"rrdtool -"]}},
+                       {restart_type,permanent},
+                       {shutdown,100},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 3-Sep-2009::18:03:37 ===
+          supervisor: {local,erlrrd_sup}
+             started: [{pid,<0.66.0>},
+                       {name,erlrrd_12},
+                       {mfa,{erlrrd,start_link,[erlrrd_12,"rrdtool -"]}},
+                       {restart_type,permanent},
+                       {shutdown,100},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 3-Sep-2009::18:03:37 ===
+          supervisor: {local,erlrrd_sup}
+             started: [{pid,<0.67.0>},
+                       {name,erlrrd_13},
+                       {mfa,{erlrrd,start_link,[erlrrd_13,"rrdtool -"]}},
+                       {restart_type,permanent},
+                       {shutdown,100},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 3-Sep-2009::18:03:37 ===
+          supervisor: {local,erlrrd_sup}
+             started: [{pid,<0.68.0>},
+                       {name,erlrrd_14},
+                       {mfa,{erlrrd,start_link,[erlrrd_14,"rrdtool -"]}},
+                       {restart_type,permanent},
+                       {shutdown,100},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 3-Sep-2009::18:03:37 ===
+          supervisor: {local,erlrrd_sup}
+             started: [{pid,<0.69.0>},
+                       {name,erlrrd_15},
+                       {mfa,{erlrrd,start_link,[erlrrd_15,"rrdtool -"]}},
+                       {restart_type,permanent},
+                       {shutdown,100},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 3-Sep-2009::18:03:37 ===
+          supervisor: {local,erlrrd_sup}
+             started: [{pid,<0.70.0>},
+                       {name,erlrrd_16},
+                       {mfa,{erlrrd,start_link,[erlrrd_16,"rrdtool -"]}},
+                       {restart_type,permanent},
+                       {shutdown,100},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 3-Sep-2009::18:03:37 ===
+          supervisor: {local,erlrrd_sup}
+             started: [{pid,<0.71.0>},
+                       {name,erlrrd_17},
+                       {mfa,{erlrrd,start_link,[erlrrd_17,"rrdtool -"]}},
+                       {restart_type,permanent},
+                       {shutdown,100},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 3-Sep-2009::18:03:37 ===
+          supervisor: {local,erlrrd_sup}
+             started: [{pid,<0.72.0>},
+                       {name,erlrrd_18},
+                       {mfa,{erlrrd,start_link,[erlrrd_18,"rrdtool -"]}},
+                       {restart_type,permanent},
+                       {shutdown,100},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 3-Sep-2009::18:03:37 ===
+          supervisor: {local,erlrrd_sup}
+             started: [{pid,<0.73.0>},
+                       {name,erlrrd_19},
+                       {mfa,{erlrrd,start_link,[erlrrd_19,"rrdtool -"]}},
+                       {restart_type,permanent},
+                       {shutdown,100},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 3-Sep-2009::18:03:37 ===
+          supervisor: {local,erlrrd_sup}
+             started: [{pid,<0.74.0>},
+                       {name,erlrrd_20},
+                       {mfa,{erlrrd,start_link,[erlrrd_20,"rrdtool -"]}},
+                       {restart_type,permanent},
+                       {shutdown,100},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 3-Sep-2009::18:03:37 ===
+         application: erlrrd
+          started_at: 'errdb@opengoss.com'
+
+=PROGRESS REPORT==== 3-Sep-2009::18:03:37 ===
+          supervisor: {local,errdb_sup}
+             started: [{pid,<0.81.0>},
+                       {name,errdb},
+                       {mfa,{errdb,start_link,
+                                   [[{root,"var/rrdb"},
+                                     {templates,"etc/errdb/templates"}]]}},
+                       {restart_type,permanent},
+                       {shutdown,5000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 3-Sep-2009::18:03:37 ===
+          supervisor: {local,errdb_sup}
+             started: [{pid,<0.86.0>},
+                       {name,errdb_httpd},
+                       {mfa,
+                           {errdb_httpd,start,
+                               [[{ip,"0.0.0.0"},
+                                 {port,8000},
+                                 {port,8000},
+                                 {docroot,"/opt/wifioss/errdb/priv/www"}]]}},
+                       {restart_type,permanent},
+                       {shutdown,5000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 3-Sep-2009::18:03:37 ===
+         application: errdb
+          started_at: 'errdb@opengoss.com'
